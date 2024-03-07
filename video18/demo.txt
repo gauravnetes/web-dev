@@ -1,0 +1,16 @@
+in CSS everything is a concept of box.
+Like in the innermost part there stays content.
+then Padding surrounds content. Then there is border and
+outermost is Margin
+
+ box-sizing: border-box; --> means content+border+padding must be 
+ equals to height. Margin isn't included in this.
+
+ 
+Margin collapse in CSS is when the top and bottom margins 
+of adjacent elements combine to form a single margin.
+This happens when there's no padding, border,
+or content separating them.
+The larger margin value between the elements is used, 
+causing spacing to appear smaller than expected. 
+Understanding this helps in creating consistent layouts.
